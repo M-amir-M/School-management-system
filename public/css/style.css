@@ -1,0 +1,30 @@
+@font-face {
+    font-family: mj-flow;
+    src: url(../fonts/mj-flow.ttf), url(../fonts/mj-flow.otf);
+}
+@font-face {
+    font-family: yekan;
+    src: url(../fonts/yekan.otf), url(../fonts/yekan.ttf);
+}
+@font-face {
+    font-family: iransans;
+    src: url(../fonts/IRANSansWeb_2.woff2);
+}
+
+body,.carousel-content h2,#about h3,#features .media-heading,#cta2 h2,#services .media-heading,#portfolio h2,#about h2,#get-in-touch h2{
+    font-family: iransans;
+}
+.carousel-content{
+    text-align: right;
+}
+#features .section-title,#services .section-title{
+    font-family: iransans;
+    font-size: 20px;
+}
+.contact-form ,.contact-form input ,.contact-form textarea,#features p,#services p{
+    text-align: right;
+}
+
+.first-p{
+    text-align: center;
+}
